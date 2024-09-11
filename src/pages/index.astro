@@ -1,10 +1,82 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Link from '../components/Link.astro';
+import logo from "../assets/logo.svg"
 ---
 
 <Layout>
-  <main>
-    
+  <main class="py-12 px-6 space-y-2xl">
+    <div class="flex flex-col items-center">
+      <img src={logo.src} alt="Vexcited" class="w-20 h-20 mb-4" />
+      <h1 class="text-xl">
+        Vexcited
+      </h1>
+      <p class="opacity-80">
+        Mikkel ALMONTE--RINGAUD
+      </p>
+    </div>
+
+    <div class="flex flex-col gap-2 items-center max-w-[300px] mx-auto">
+      <Link
+        href="https://youtube.com/@Vexcited"
+        title="@Vexcited"
+        description="YouTube"
+      />
+      <Link
+        href="https://instagram.com/vexcitedoff"
+        title="@vexcitedoff"
+        description="Instagram"
+      />
+      <Link
+        href="https://linkedin.com/in/vexcited"
+        title="@vexcited"
+        description="LinkedIn"
+      />
+      <Link
+        href="https://mym.fans/Vexcited"
+        title="@Vexcited"
+        description="MYM"
+      />
+      <Link
+        href="https://ko-fi.com/vexcited"
+        title="@vexcited"
+        description="Ko-fi"
+      />
+      <Link
+        href="https://patreon.com/Vexcited"
+        title="@Vexcited"
+        description="Patreon"
+      />
+      <Link
+        href="https://github.com/Vexcited"
+        title="@Vexcited"
+        description="GitHub"
+      />
+      <Link
+        href="https://paypal.me/vexcitedoff"
+        title="@vexcitedoff"
+        description="PayPal"
+      />
+      <Link
+        href="https://reddit.com/u/vexcitedoff"
+        title="@vexcitedoff"
+        description="Reddit"
+      />
+      <Link
+        href="https://twitch.tv/vexcited"
+        title="@vexcited"
+        description="Twitch"
+      />
+      <Link
+        href="https://x.com/vexcitedoff"
+        title="@vexcitedoff"
+        description="X (previously Twitter)"
+      />
+      <Link
+        href="https://tiktok.com/@vexcitedoff"
+        title="@vexcitedoff"
+        description="TikTok"
+      />
+    </div>
   </main>
 </Layout>
